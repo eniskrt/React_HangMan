@@ -1,13 +1,123 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  justify-content: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.drawing{
+  position: relative;
+  width: 350px!important;
+  height: 500px!important;
+  border: 1px solid black;
+}
+.footer{
+  position: absolute;
+  width: 175px;
+  height:5px;
+  background-color: black;
+  bottom: 50px;
+
+}
+.direct{
+  position: absolute;
+  width:5px;
+  height: 350px;
+  background-color: black;
+  bottom: 50px;
+  left: 100px;
+}
+.top{
+  position: absolute;
+  width: 125px;
+  height:5px;
+  background-color: black;
+  top: 95px;
+  left: 100px;
+}
+.endirect{
+  position: absolute;
+  width:5px;
+  height: 50px;
+  background-color: black;
+  top: 95px;
+  left: 225px;
+}
+.head{
+  position: absolute;
+  width: 50px;
+  height:50px;
+  border-radius: 50%;
+  background-color: white;
+  border: 5px solid black;
+  left:203px;
+  top: 145px;
+}
+.body{
+  position: absolute;
+  height: 100px;
+  width: 5px;
+  background-color: black;
+  top: 195px;
+  left: 225px;
+}
+.left{
+  position: absolute;
+  width:5px;
+  height: 50px;
+  background-color: black;
+  top: 190px;
+  left: 245px;
+  transform: rotate(60deg);
+}
+.right{
+  position: absolute;
+  width:5px;
+  height: 50px;
+  background-color: black;
+  top: 189px;
+  left: 203px;
+  transform: rotate(300deg);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.foot{
+  position: absolute;
+  position: absolute;
+  width:5px;
+  height: 50px;
+  background-color: black;
+  bottom: 168px;
+  left: 245px;
+  transform: rotate(120deg);
+}
+
+.keyboard {
+  border: 2px solid black!important;
+  width: 40px;
+  text-align: center;
+  font-size: 1.2rem!important;
+  font-weight: bold!important;
+  margin: 5px;
+  background-color: white!important;
+  color: black!important;
+}
+
+.keyboard:hover {
+  background-color:rgba(0, 0, 0, 0.5)!important;
+  cursor: not-allowed!important;;
+}
+
+.harf{
+  border-bottom: 5px solid black;
+  margin: 10px;
+  margin-bottom: 10px;
+  font-size: 2rem;
+  width: 25px;
+  text-align: center;
+  position: relative;
+}
+.harf span{
+  position: absolute;
+  bottom: 0;
+  left: 2px;
 }

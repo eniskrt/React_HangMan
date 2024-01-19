@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import {  useEffect, useState } from "react";
+import Drawing from "./component/drawing";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Keyboard from "./component/Keyboard.jsx";
+import sorular from "../src/component/sorular.json"
+import Lose from "./component/Lose.jsx";
 
 function App() {
+  const [question, setQuestion] = useState({});
+  const [error, setError] = useState(0)
+
+
+  const stateFiller = () => {
+    let random = Math.floor(Math.random() * 10);
+    const newQuestion = sorular.find(item => item.id === random); 
+    setQuestion(newQuestion || {}); 
+  };
+
+  useEffect(() => {
+    stateFiller();
+  }, []);
+
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    {error >= 6 ?
+      <Lose setError={setError} stateFiller={stateFiller}/>:
+    <div>
+      <Drawing question={question} error={error}/>
+      <Keyboard question={question} setError={setError}/>
     </div>
+    }
+    </>
   );
 }
 

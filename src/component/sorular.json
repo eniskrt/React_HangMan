@@ -1,0 +1,68 @@
+ [
+      {
+        "id": 1,
+        "soru": "Süper Lİg'de 2023-2024 sezonunun şampiyonu kimdir?",
+        "cevap": "FENERBAHÇE",
+        "harf_harf": ["F", "E", "N", "E", "R", "B", "A","H","Ç","E"]
+      },
+      {
+        "id": 1,
+        "soru": "Dünyanın en büyük okyanusu hangisidir?",
+        "cevap": "PASİFİK",
+        "harf_harf": ["P", "A", "S", "İ", "F", "İ", "K"]
+      },
+      {
+        "id": 2,
+        "soru": "Hangi gezegen Güneş Sistemi'nde üçüncü sıradadır?",
+        "cevap": "DÜNYA",
+        "harf_harf": ["D", "Ü", "N", "Y", "A"]
+      },
+      {
+        "id": 3,
+        "soru": "Türkiye'nin başkenti nedir?",
+        "cevap": "ANKARA",
+        "harf_harf": ["A", "N", "K", "A", "R", "A"]
+      },
+      {
+        "id": 4,
+        "soru": "Hangi renk trafik lambasında durmaya işarettir?",
+        "cevap": "KIRMIZI",
+        "harf_harf": ["K", "I", "R", "M", "I", "Z", "I"]
+      },
+      {
+        "id": 5,
+        "soru": "En yüksek dağ zirvesi hangi dağdır?",
+        "cevap": "EVEREST",
+        "harf_harf": ["E", "V", "E", "R", "E", "S", "T"]
+      },
+      {
+        "id": 6,
+        "soru": "Hangi meyve kırmızı renktedir ve kalp sağlığı için faydalıdır?",
+        "cevap": "AHUDUDU",
+        "harf_harf": ["A", "H", "U", "D", "U", "D", "U"]
+      },
+      {
+        "id": 7,
+        "soru": "Hangi gezegen 'Akşam Yıldızı' olarak da bilinir?",
+        "cevap": "VENÜS",
+        "harf_harf": ["V", "E", "N", "Ü", "S"]
+      },
+      {
+        "id": 8,
+        "soru": "İnsan vücudundaki en büyük organ nedir?",
+        "cevap": "CİLT",
+        "harf_harf": ["C", "İ", "L", "T"]
+      },
+      {
+        "id": 9,
+        "soru": "Hangi hayvan uçabilir, ancak kuş değildir?",
+        "cevap": "YARASA",
+        "harf_harf": ["Y", "A", "R", "A", "S", "A"]
+      },
+      {
+        "id": 10,
+        "soru": "Hangi renk gökyüzünü temsil eder?",
+        "cevap": "MAVİ",
+        "harf_harf": ["M", "A", "V", "İ"]
+      }
+    ]

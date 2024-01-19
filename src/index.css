@@ -104,8 +104,11 @@ body{
 
 .keyboard:hover {
   background-color:rgba(0, 0, 0, 0.5)!important;
-  cursor: not-allowed!important;;
+  background-color: yellow!important;
 }
+/* .keyboard:hover:disabled{
+  cursor: not-allowed!important;
+} */
 
 .harf{
   border-bottom: 5px solid black;

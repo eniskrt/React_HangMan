@@ -17,7 +17,7 @@ const Keyboard = ({question,setError,setWin}) => {
 
 
     const handleClick = (value) => { 
-        if(win1==win2){
+        if(win1===win2){
             setWin(true);
           }
         if(question.harf_harf.includes(value)){

@@ -4,10 +4,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Keyboard from "./component/Keyboard.jsx";
 import sorular from "../src/component/sorular.json"
 import Lose from "./component/Lose.jsx";
+import Win from "./component/Win.jsx";
 
 function App() {
   const [question, setQuestion] = useState({});
   const [error, setError] = useState(0)
+  const [win, setWin] = useState(false)
+
 
 
   const stateFiller = () => {
@@ -18,18 +21,19 @@ function App() {
 
   useEffect(() => {
     stateFiller();
-  }, []);
+  }, [win]);
 
  
   return (
     <>
     {error >= 6 ?
-      <Lose setError={setError} stateFiller={stateFiller}/>:
+      <Lose setError={setError} stateFiller={stateFiller}/>:(
+        win?(<Win setError={setError}  stateFiller={stateFiller} setWin={setWin}/>):(
     <div>
       <Drawing question={question} error={error}/>
-      <Keyboard question={question} setError={setError}/>
-    </div>
-    }
+      <Keyboard question={question} setError={setError} setWin={setWin}/>
+    </div>)
+    )}
     </>
   );
 }

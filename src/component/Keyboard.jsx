@@ -1,17 +1,25 @@
 import React, { useState } from 'react'
 import { Button, Container } from 'react-bootstrap'
 
-const Keyboard = ({question,setError}) => {
+const Keyboard = ({question,setError,setWin}) => {
 
     const [wrongAnswer, setWrongAnswer] = useState([])
     const [answer, setAnswer] = useState([])
 
     const alfabe = ["A", "B", "C", "Ç", "D", "E", "F", "G", "Ğ", "H", "I", "İ", "J", "K", "L", "M", "N", "O", "Ö", "P", "R", "S", "Ş", "T", "U", "Ü", "V", "Y", "Z"]
 
-    
+    function removeDuplicates(arr) {
+        return arr?.reduce((unique, item) => unique.includes(item) ? unique : [...unique, item], []);
+    }
+    const win1=removeDuplicates(question.harf_harf)?.join(", ")
+    const win2=removeDuplicates(answer).filter(eleman => eleman !== ",")?.join(", ")
     
 
+
     const handleClick = (value) => { 
+        if(win1==win2){
+            setWin(true);
+          }
         if(question.harf_harf.includes(value)){
             setAnswer(prev => [...prev + value])
         }else{

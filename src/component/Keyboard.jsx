@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Button, Container } from 'react-bootstrap'
 
 const Keyboard = ({question,setError,setWin}) => {
@@ -14,12 +14,20 @@ const Keyboard = ({question,setError,setWin}) => {
     const win1=removeDuplicates(question.harf_harf)?.join(", ")
     const win2=removeDuplicates(answer).filter(eleman => eleman !== ",")?.join(", ")
     
-
-
-    const handleClick = (value) => { 
+    
+    
+      useEffect(() => {
+        
         if(win1===win2){
             setWin(true);
           }
+    
+      }, [win1,win2])
+      
+
+
+    const handleClick = (value) => { 
+        
         if(question.harf_harf.includes(value)){
             setAnswer(prev => [...prev + value])
         }else{
@@ -30,6 +38,8 @@ const Keyboard = ({question,setError,setWin}) => {
         console.log("answer",answer);
         console.log(wrongAnswer);
      }
+
+     const isWİnner = () => {  }
 
 
   return (

@@ -45,7 +45,7 @@ const Keyboard = ({question,setError,setWin}) => {
   return (
     <>
     <Container>
-        <h5 className='my-5'>Soru: {question.soru}</h5>
+        <h5 className='my-5 text-center'>Soru: {question.soru}</h5>
         <div className="answer d-flex align-items-center g-3 justify-content-center">
             {question.harf_harf?.map((item,index)=>(
                 <div key={index} className='harf mb-4'><span className={`${answer.includes(item)?"":"d-none"}`}>{item}</span></div>

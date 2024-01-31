@@ -6,7 +6,7 @@ const Keyboard = ({question,setError,setWin}) => {
     const [wrongAnswer, setWrongAnswer] = useState([])
     const [answer, setAnswer] = useState([])
 
-    const alfabe = ["A", "B", "C", "Ç", "D", "E", "F", "G", "Ğ", "H", "I", "İ", "J", "K", "L", "M", "N", "O", "Ö", "P", "R", "S", "Ş", "T", "U", "Ü", "V", "Y", "Z"]
+    const alfabe = ["A", "B", "C", "Ç", "D", "E", "F", "G", "Ğ", "H", "I", "İ", "J", "K", "L", "M", "N", "O", "Ö", "P", "R", "S", "Ş", "T", "U", "Ü", "V", "Y", "Z"," ","1","2","3","4","5","6","7","8","9","0"]
 
     function removeDuplicates(arr) {
         return arr?.reduce((unique, item) => unique.includes(item) ? unique : [...unique, item], []);
@@ -38,8 +38,6 @@ const Keyboard = ({question,setError,setWin}) => {
         console.log("answer",answer);
         console.log(wrongAnswer);
      }
-
-     const isWİnner = () => {  }
 
 
   return (

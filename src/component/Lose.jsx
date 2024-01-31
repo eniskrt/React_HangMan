@@ -4,7 +4,7 @@ import image from "../img/olen_adam.jpg"
 import { Button, Container } from 'react-bootstrap';
 import { FaRecycle } from "react-icons/fa";
 
-const Lose = ({setError,stateFiller}) => {
+const Lose = ({setError,stateFiller,question}) => {
 
     const resetGame = () => { 
         setError(0)
@@ -18,6 +18,7 @@ const Lose = ({setError,stateFiller}) => {
           <Card.Body>
             <Card.Title className='fs-3 text-danger'>KAYBETTİNİZ... </Card.Title>
           </Card.Body>
+          <Card.Title className='text-success mb-4'>Doğru Cevap : {question.cevap}</Card.Title>
           <Button className='bg-danger border-0 w-25' onClick={()=>resetGame()}><FaRecycle /></Button>
         </Card>
     </Container>

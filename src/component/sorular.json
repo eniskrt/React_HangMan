@@ -1,68 +1,302 @@
- [
-      {
-        "id": 1,
-        "soru": "Süper Lİg'de 2023-2024 sezonunun şampiyonu kimdir?",
-        "cevap": "FENERBAHÇE",
-        "harf_harf": ["F", "E", "N", "E", "R", "B", "A","H","Ç","E"]
-      },
-      {
-        "id": 1,
-        "soru": "Dünyanın en büyük okyanusu hangisidir?",
-        "cevap": "PASİFİK",
-        "harf_harf": ["P", "A", "S", "İ", "F", "İ", "K"]
-      },
-      {
-        "id": 2,
-        "soru": "Hangi gezegen Güneş Sistemi'nde üçüncü sıradadır?",
-        "cevap": "DÜNYA",
-        "harf_harf": ["D", "Ü", "N", "Y", "A"]
-      },
-      {
-        "id": 3,
-        "soru": "Türkiye'nin başkenti nedir?",
-        "cevap": "ANKARA",
-        "harf_harf": ["A", "N", "K", "A", "R", "A"]
-      },
-      {
-        "id": 4,
-        "soru": "Hangi renk trafik lambasında durmaya işarettir?",
-        "cevap": "KIRMIZI",
-        "harf_harf": ["K", "I", "R", "M", "I", "Z", "I"]
-      },
-      {
-        "id": 5,
-        "soru": "En yüksek dağ zirvesi hangi dağdır?",
-        "cevap": "EVEREST",
-        "harf_harf": ["E", "V", "E", "R", "E", "S", "T"]
-      },
-      {
-        "id": 6,
-        "soru": "Hangi meyve kırmızı renktedir ve kalp sağlığı için faydalıdır?",
-        "cevap": "AHUDUDU",
-        "harf_harf": ["A", "H", "U", "D", "U", "D", "U"]
-      },
-      {
-        "id": 7,
-        "soru": "Hangi gezegen 'Akşam Yıldızı' olarak da bilinir?",
-        "cevap": "VENÜS",
-        "harf_harf": ["V", "E", "N", "Ü", "S"]
-      },
-      {
-        "id": 8,
-        "soru": "İnsan vücudundaki en büyük organ nedir?",
-        "cevap": "CİLT",
-        "harf_harf": ["C", "İ", "L", "T"]
-      },
-      {
-        "id": 9,
-        "soru": "Hangi hayvan uçabilir, ancak kuş değildir?",
-        "cevap": "YARASA",
-        "harf_harf": ["Y", "A", "R", "A", "S", "A"]
-      },
-      {
-        "id": 10,
-        "soru": "Hangi renk gökyüzünü temsil eder?",
-        "cevap": "MAVİ",
-        "harf_harf": ["M", "A", "V", "İ"]
-      }
-    ]
+[
+  {
+    "id": 1,
+    "soru": "Süper Lig'de 2023-2024 sezonunun şampiyonu kimdir?",
+    "cevap": "FENERBAHÇE",
+    "harf_harf": ["F", "E", "N", "E", "R", "B", "A", "H", "Ç", "E"]
+  },
+  {
+    "id": 2,
+    "soru": "Dünyanın en büyük okyanusu hangisidir?",
+    "cevap": "PASİFİK",
+    "harf_harf": ["P", "A", "S", "İ", "F", "İ", "K"]
+  },
+  {
+    "id": 3,
+    "soru": "Hangi gezegen Güneş Sistemi'nde üçüncü sıradadır?",
+    "cevap": "DÜNYA",
+    "harf_harf": ["D", "Ü", "N", "Y", "A"]
+  },
+  {
+    "id": 4,
+    "soru": "Türkiye'nin başkenti nedir?",
+    "cevap": "ANKARA",
+    "harf_harf": ["A", "N", "K", "A", "R", "A"]
+  },
+  {
+    "id": 5,
+    "soru": "Hangi renk trafik lambasında durmaya işarettir?",
+    "cevap": "KIRMIZI",
+    "harf_harf": ["K", "I", "R", "M", "I", "Z", "I"]
+  },
+  {
+    "id": 6,
+    "soru": "En yüksek dağ zirvesi hangi dağdır?",
+    "cevap": "EVEREST",
+    "harf_harf": ["E", "V", "E", "R", "E", "S", "T"]
+  },
+  {
+    "id": 7,
+    "soru": "Hangi meyve kırmızı renktedir ve kalp sağlığı için faydalıdır?",
+    "cevap": "AHUDUDU",
+    "harf_harf": ["A", "H", "U", "D", "U", "D", "U"]
+  },
+  {
+    "id": 8,
+    "soru": "Hangi gezegen 'Akşam Yıldızı' olarak da bilinir?",
+    "cevap": "VENÜS",
+    "harf_harf": ["V", "E", "N", "Ü", "S"]
+  },
+  {
+    "id": 9,
+    "soru": "İnsan vücudundaki en büyük organ nedir?",
+    "cevap": "CİLT",
+    "harf_harf": ["C", "İ", "L", "T"]
+  },
+  {
+    "id": 10,
+    "soru": "Hangi hayvan uçabilir, ancak kuş değildir?",
+    "cevap": "YARASA",
+    "harf_harf": ["Y", "A", "R", "A", "S", "A"]
+  },
+  {
+    "id": 11,
+    "soru": "Hangi renk gökyüzünü temsil eder?",
+    "cevap": "MAVİ",
+    "harf_harf": ["M", "A", "V", "İ"]
+  },
+  {
+    "id": 12,
+    "soru": "Hangi gezegen Mars'ın hemen yanındadır?",
+    "cevap": "DÜNYA",
+    "harf_harf": ["D", "Ü", "N", "Y", "A"]
+  },
+  {
+    "id": 13,
+    "soru": "Türkiye'nin en yüksek dağı hangisidir?",
+    "cevap": "AĞRI DAĞI",
+    "harf_harf": ["A", "Ğ", "R", "I", " ", "D", "A", "Ğ", "I"]
+  },
+  {
+    "id": 14,
+    "soru": "Hangi ülkenin başkenti Amsterdam'dır?",
+    "cevap": "HOLLANDA",
+    "harf_harf": ["H", "O", "L", "L", "A", "N", "D", "A"]
+  },
+  {
+    "id": 15,
+    "soru": "Hangi elementin sembolü 'O'dur?",
+    "cevap": "OKSİJEN",
+    "harf_harf": ["O", "K", "S", "İ", "J", "E", "N"]
+  },
+  {
+    "id": 16,
+    "soru": "Hangi film karakteri 'Kara Şövalye' olarak bilinir?",
+    "cevap": "BATMAN",
+    "harf_harf": ["B", "A", "T", "M", "A", "N"]
+  },
+  {
+    "id": 17,
+    "soru": "Hangi gezegen adını bir çikolata markasından almıştır?",
+    "cevap": "MARS",
+    "harf_harf": ["M", "A", "R", "S"]
+  },
+  {
+    "id": 18,
+    "soru": "Hangi renk pembe ve morun karışımıdır?",
+    "cevap": "LİLA",
+    "harf_harf": ["L", "İ", "L", "A"]
+  },
+  {
+    "id": 19,
+    "soru": "Hangi yıl Türkiye Cumhuriyeti kurulmuştur?",
+    "cevap": "1923",
+    "harf_harf": ["1", "9", "2", "3"]
+  },
+  {
+    "id": 20,
+    "soru": "Hangi madde donduğunda genleşir?",
+    "cevap": "SU",
+    "harf_harf": ["S", "U"]
+  },
+  {
+    "id": 21,
+    "soru": "Hangi ülke Ay'a ilk insanlı uzay aracını gönderdi?",
+    "cevap": "AMERİKA",
+    "harf_harf": ["A", "M", "E", "R", "İ", "K", "A"]
+  },
+  {
+    "id": 22,
+    "soru": "Hangi dilin konuşulduğu ülkede Bollywood filmleri üretilir?",
+    "cevap": "HİNDİSTAN",
+    "harf_harf": ["H", "İ", "N", "D", "İ", "S", "T", "A", "N"]
+  },
+  {
+    "id": 23,
+    "soru": "Hangi meyve sıcak suya atıldığında yüzeyine çıkar?",
+    "cevap": "PORTAKAL",
+    "harf_harf": ["P", "O", "R", "T", "A", "K", "A", "L"]
+  },
+  {
+    "id": 24,
+    "soru": "Hangi elementin simgesi 'Fe'dir?",
+    "cevap": "DEMİR",
+    "harf_harf": ["D", "E", "M", "İ", "R"]
+  },
+  {
+    "id": 25,
+    "soru": "Hangi renk gül aşkı simgeler?",
+    "cevap": "KIRMIZI",
+    "harf_harf": ["K", "I", "R", "M", "I", "Z", "I"]
+  },
+  {
+    "id": 26,
+    "soru": "Hangi yıl Leonardo da Vinci doğmuştur?",
+    "cevap": "1452",
+    "harf_harf": ["1", "4", "5", "2"]
+  },
+  {
+    "id": 27,
+    "soru": "Hangi gezegenin bir günü diğer gezegenlerden daha uzundur?",
+    "cevap": "VENÜS",
+    "harf_harf": ["V", "E", "N", "Ü", "S"]
+  },
+  {
+    "id": 28,
+    "soru": "Hangi hayvanın üç kalbi vardır?",
+    "cevap": "AHTAPOT",
+    "harf_harf": ["A", "H", "T", "A", "P", "O", "T"]
+  },
+  {
+    "id": 29,
+    "soru": "Hangi renk ayakkabılar klasik olarak bir erkeğin takım elbisesiyle kombinlenir?",
+    "cevap": "SİYAH",
+    "harf_harf": ["S", "İ", "Y", "A", "H"]
+  },
+  {
+    "id": 30,
+    "soru": "Hangi element atmosferin büyük bir bölümünü oluşturur?",
+    "cevap": "AZOT",
+    "harf_harf": ["A", "Z", "O", "T"]
+  },
+  {
+    "id": 31,
+    "soru": "Hangi ünlü ressam 'Yıldızlı Gece' tablosunu yapmıştır?",
+    "cevap": "VAN GOGH",
+    "harf_harf": ["V", "A", "N", " ", "G", "O", "G", "H"]
+  },
+  {
+    "id": 32,
+    "soru": "Hangi ülkenin ulusal sporu sumodur?",
+    "cevap": "JAPONYA",
+    "harf_harf": ["J", "A", "P", "O", "N", "Y", "A"]
+  },
+  {
+    "id": 33,
+    "soru": "Hangi film serisi 'Yüzüklerin Efendisi' olarak bilinir?",
+    "cevap": "ORTA DÜNYA",
+    "harf_harf": ["O", "R", "T", "A", " ", "D", "Ü", "N", "Y", "A"]
+  },
+  {
+    "id": 34,
+    "soru": "Hangi gezegenin uydusu Titan'dır?",
+    "cevap": "SATÜRN",
+    "harf_harf": ["S", "A", "T", "Ü", "R", "N"]
+  },
+  {
+    "id": 35,
+    "soru": "Hangi renk yılbaşı gecesinde genellikle kullanılır?",
+    "cevap": "ALTIN",
+    "harf_harf": ["A", "L", "T", "I", "N"]
+  },
+  {
+    "id": 36,
+    "soru": "Hangi dilin konuşulduğu ülkede Mount Everest bulunur?",
+    "cevap": "NEPAL",
+    "harf_harf": ["N", "E", "P", "A", "L"]
+  },
+  {
+    "id": 37,
+    "soru": "Hangi meyvenin ağacı meşhur Newton'a elma düşmesini sağlamıştır?",
+    "cevap": "ELMA",
+    "harf_harf": ["E", "L", "M", "A"]
+  },
+  {
+    "id": 38,
+    "soru": "Hangi elementin sembolü 'Hg'dir?",
+    "cevap": "CİVA",
+    "harf_harf": ["C", "İ", "V", "A"]
+  },
+  {
+    "id": 39,
+    "soru": "Hangi renk trafik lambasında 'Hazır ol' anlamına gelir?",
+    "cevap": "SARI",
+    "harf_harf": ["S", "A", "R", "I"]
+  },
+  {
+    "id": 40,
+    "soru": "Hangi yıl İstanbul'un fethi gerçekleşmiştir?",
+    "cevap": "1453",
+    "harf_harf": ["1", "4", "5", "3"]
+  },
+  {
+    "id": 41,
+    "soru": "Hangi gezegenin adı bir otomobil markasına verilmiştir?",
+    "cevap": "FORD",
+    "harf_harf": ["F", "O", "R", "D"]
+  },
+  {
+    "id": 42,
+    "soru": "Hangi hayvanın dişleri asla uzamaz?",
+    "cevap": "AT",
+    "harf_harf": ["A", "T"]
+  },
+  {
+    "id": 43,
+    "soru": "Hangi renk gülme hissini ifade eder?",
+    "cevap": "SARI",
+    "harf_harf": ["S", "A", "R", "I"]
+  },
+  {
+    "id": 44,
+    "soru": "Hangi ülke nüfus bakımından dünyanın en kalabalık ülkesidir?",
+    "cevap": "ÇİN",
+    "harf_harf": ["Ç", "İ", "N"]
+  },
+  {
+    "id": 45,
+    "soru": "Hangi element atmosferdeki oksijeni temsil eder?",
+    "cevap": "OZON",
+    "harf_harf": ["O", "Z", "O", "N"]
+  },
+  {
+    "id": 46,
+    "soru": "Hangi renk dondurmanın klasik rengidir?",
+    "cevap": "SARI",
+    "harf_harf": ["S", "A", "R", "I"]
+  },
+  {
+    "id": 47,
+    "soru": "Hangi yıl Ay'a ilk insan ayak basmıştır?",
+    "cevap": "1969",
+    "harf_harf": ["1", "9", "6", "9"]
+  },
+  {
+    "id": 48,
+    "soru": "Hangi gezegen adını mitolojideki tanrılar kralından almıştır?",
+    "cevap": "JÜPİTER",
+    "harf_harf": ["J", "Ü", "P", "İ", "T", "E", "R"]
+  },
+  {
+    "id": 49,
+    "soru": "Hangi dilin konuşulduğu ülkede tango doğmuştur?",
+    "cevap": "ARJANTİN",
+    "harf_harf": ["A", "R", "J", "A", "N", "T", "İ", "N"]
+  },
+  {
+    "id": 50,
+    "soru": "Hangi madde atmosferdeki renkleri oluşturan ana faktördür?",
+    "cevap": "GÜNEŞ IŞIĞI",
+    "harf_harf": ["G", "Ü", "N", "E", "Ş", " ", "I", " Ş", "I", " Ğ", "I"]
+  }
+]

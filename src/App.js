@@ -14,7 +14,7 @@ function App() {
 
 
   const stateFiller = () => {
-    let random = Math.floor(Math.random() * 10);
+    let random = Math.floor(Math.random() * 49);
     const newQuestion = sorular.find(item => item.id === random); 
     setQuestion(newQuestion || {}); 
   };
@@ -27,7 +27,7 @@ function App() {
   return (
     <>
     {error >= 6 ?
-      <Lose setError={setError} stateFiller={stateFiller}/>:(
+      <Lose setError={setError} stateFiller={stateFiller} question={question}/>:(
         win?(<Win setError={setError}  stateFiller={stateFiller} setWin={setWin}/>):(
     <div>
       <Drawing question={question} error={error}/>

@@ -54,7 +54,7 @@ const Keyboard = ({question,setError,setWin}) => {
 
     </Container>
 
-    <Container className='d-flex g-3 flex-wrap justify-content-center'>
+    <Container className='d-flex g-4 flex-wrap justify-content-center'>
         {alfabe.map((item,index) => (
         <Button key={index} className={`keyboard ${answer.includes(item)?"bg-success":""}`} disabled={wrongAnswer.includes(item)} onClick={()=>handleClick(item)}>{item}</Button>
         ))}

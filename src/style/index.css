@@ -118,6 +118,9 @@ body{
   text-align: center;
   position: relative;
 }
+.keyboard:disabled{
+  background-color: red!important;
+}
 .harf span{
   position: absolute;
   bottom: 0;

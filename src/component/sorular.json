@@ -1,11 +1,5 @@
 [
   {
-    "id": 1,
-    "soru": "Süper Lig'de 2023-2024 sezonunun şampiyonu kimdir?",
-    "cevap": "FENERBAHÇE",
-    "harf_harf": ["F", "E", "N", "E", "R", "B", "A", "H", "Ç", "E"]
-  },
-  {
     "id": 2,
     "soru": "Dünyanın en büyük okyanusu hangisidir?",
     "cevap": "PASİFİK",
@@ -51,7 +45,7 @@
     "id": 9,
     "soru": "İnsan vücudundaki en büyük organ nedir?",
     "cevap": "CİLT",
-    "harf_harf": ["C", "İ", "L", "T"]
+    "harf_harf": ["D", "E", "R", "İ"]
   },
   {
     "id": 10,
@@ -70,12 +64,6 @@
     "soru": "Hangi gezegen Mars'ın hemen yanındadır?",
     "cevap": "DÜNYA",
     "harf_harf": ["D", "Ü", "N", "Y", "A"]
-  },
-  {
-    "id": 13,
-    "soru": "Türkiye'nin en yüksek dağı hangisidir?",
-    "cevap": "AĞRI DAĞI",
-    "harf_harf": ["A", "Ğ", "R", "I", " ", "D", "A", "Ğ", "I"]
   },
   {
     "id": 14,
@@ -273,7 +261,7 @@
     "id": 46,
     "soru": "Hangi renk dondurmanın klasik rengidir?",
     "cevap": "SARI",
-    "harf_harf": ["S", "A", "R", "I"]
+    "harf_harf": ["B", "E", "Y", "A", "Z"]
   },
   {
     "id": 47,
@@ -289,14 +277,8 @@
   },
   {
     "id": 49,
-    "soru": "Hangi dilin konuşulduğu ülkede tango doğmuştur?",
+    "soru": "Hangi ülkede tango doğmuştur?",
     "cevap": "ARJANTİN",
     "harf_harf": ["A", "R", "J", "A", "N", "T", "İ", "N"]
-  },
-  {
-    "id": 50,
-    "soru": "Hangi madde atmosferdeki renkleri oluşturan ana faktördür?",
-    "cevap": "GÜNEŞ IŞIĞI",
-    "harf_harf": ["G", "Ü", "N", "E", "Ş", " ", "I", " Ş", "I", " Ğ", "I"]
   }
 ]

@@ -29,10 +29,10 @@ function App() {
     {error >= 6 ?
       <Lose setError={setError} stateFiller={stateFiller} question={question}/>:(
         win?(<Win setError={setError}  stateFiller={stateFiller} setWin={setWin}/>):(
-    <div>
+    <>
       <Drawing question={question} error={error}/>
       <Keyboard question={question} setError={setError} setWin={setWin}/>
-    </div>)
+    </>)
     )}
     </>
   );

@@ -6,7 +6,7 @@ const Drawing = ({error}) => {
 
 
   return (
-    <Container>
+    <Container className='main-container'>
       <h1 className='text-center my-3'>Adam Asmaca</h1>
       <Container className='drawing'>
         <div className="footer"></div>

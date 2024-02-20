@@ -42,7 +42,7 @@ const Keyboard = ({question,setError,setWin}) => {
 
   return (
     <>
-    <Container>
+    <Container className='question'>
         <h5 className='my-5 text-center'>Soru: {question.soru}</h5>
         <div className="answer d-flex align-items-center g-3 justify-content-center">
             {question.harf_harf?.map((item,index)=>(
@@ -52,7 +52,7 @@ const Keyboard = ({question,setError,setWin}) => {
 
     </Container>
 
-    <Container className='d-flex g-4 flex-wrap justify-content-center'>
+    <Container className='main-keyboard d-flex g-4 flex-wrap justify-content-center'>
         {alfabe.map((item,index) => (
         <Button key={index} className={`keyboard ${answer.includes(item)?"bg-success":""}`} disabled={wrongAnswer.includes(item)} onClick={()=>handleClick(item)}>{item}</Button>
         ))}
